@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>San Lorenzo de Almagro/ Oficial</title>
 </head>
+
 <body>
     <header>
-        
+
         <img src="../img/Escudo_del_Club_Atlético_San_Lorenzo_de_Almagro_png.png" alt="">
         <nav>
             <ul>
@@ -21,55 +23,94 @@
         </nav>
     </header>
     <main>
-        <form action="" method="" enctype="">
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
             </div>
-            <div>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="inputPassword4">
             </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputname" placeholder="1234 Main St">
             </div>
-            <div>
-                <label for="contrasena">Contraseña</label>
-                <input type="password" name="contrasena" id="contrasena">
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inpulastname" placeholder="Apartment, studio, or floor">
             </div>
-            <div>
-                <h3>Genero</h3>
-                <div>
-                    <label for="masculino">Masculino</label>
-                    <input type="radio" name="genero">
-                    <label for="femenino">Femenino</label>
-                    <input type="radio" name="genero">
-                    <label for="otro">Otro</label>
-                    <input type="radio" name="genero">
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Provincia</label>
+                <select id="inputState" class="form-select">
+                    <option selected>BUENOS AIRES</option>
+                    <option selected>CATAMARCA</option>
+                    <option selected>CHACO</option>
+                    <option selected>CHUBUT</option>
+                    <option selected>CÓRDOBA</option>
+                    <option selected>CORRIENTES</option>
+                    <option selected>ENTRE RÍOS</option>
+                    <option selected>FORMOSA</option>
+                    <option selected>JUJUY</option>
+                    <option selected>LA PAMPA</option>
+                    <option selected>LA RIOJA</option>
+                    <option selected>MENDOZA</option>
+                    <option selected>MISIONES</option>
+                    <option selected>NEUQUÉN</option>
+                    <option selected>RÍO NEGRO</option>
+                    <option selected>SALTA</option>
+                    <option selected>SAN JUAN</option>
+                    <option selected>SAN LUIS</option>
+                    <option selected>SANTA CRUZ</option>
+                    <option selected>SANTA FE</option>
+                    <option selected>SANTIAGO DEL ESTERO</option>
+                    <option selected>TIERRA DEL FUEGO</option>
+                    <option selected>TUCUMÁN</option>
+                    
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
                 </div>
             </div>
-
-
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
         </form>
 
 
     </main>
-    
+
     <footer id="contacto">
         <div>
-            <a href="https://www.facebook.com/SanLorenzo" target="_blank"><img src="../img/facebook.png" alt="logo facebook"></a>
-            <a href="https://www.instagram.com/sanlorenzo/" target="_blank"><img src="../img/instagram.png" alt="logo instagram"></a>
-            <a href="https://twitter.com/sanlorenzo" target="_blank"><img src="../img/twitter.png" alt="logo twitter"></a>
-            
+            <a href="https://www.facebook.com/SanLorenzo" target="_blank"><img src="../img/facebook.png"
+                    alt="logo facebook"></a>
+            <a href="https://www.instagram.com/sanlorenzo/" target="_blank"><img src="../img/instagram.png"
+                    alt="logo instagram"></a>
+            <a href="https://twitter.com/sanlorenzo" target="_blank"><img src="../img/twitter.png"
+                    alt="logo twitter"></a>
+
         </div>
-    
-    
+
+
 
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
