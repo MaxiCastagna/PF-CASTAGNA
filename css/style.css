@@ -109,7 +109,7 @@ color: white;
 .historia img{
     width: 30%;
 }
-.historia div h2{
+.historia div h3{
     margin: 15px;
     font-size: 40px;
 }
@@ -117,7 +117,7 @@ color: white;
 width: 50%;
 
 }
-.viejo-gasometro div h2{
+.viejo-gasometro div h3{
     margin: 15px;
     font-size: 40px;
 }
@@ -138,7 +138,7 @@ width: 50%;
     text-align: center;
 }
 
-.nuevo-gasometro div h2{
+.nuevo-gasometro div h3{
     margin: 15px;
     font-size: 40px;
 }
