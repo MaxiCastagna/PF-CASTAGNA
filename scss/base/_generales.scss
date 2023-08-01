@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;800&display=swap');
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+        font-family: 'Nunito Sans', sans-serif;
+    }
+.boton{
+    text-decoration: none;
+    color:black;
+    background-color:white;
+    padding: 10px;
+}  
+.fondo{
+    background-image: url("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt31db21db8e60b549/60dfb45bba2956259285f24f/316243fcc37b16f80b60c112c66fde91f8574672.jpg?auto=webp&format=pjpg&width=3840&quality=60");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;800&display=swap");
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Nunito Sans', sans-serif; }
+
+.boton {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px; }
+
+.fondo {
+  background-image: url("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt31db21db8e60b549/60dfb45bba2956259285f24f/316243fcc37b16f80b60c112c66fde91f8574672.jpg?auto=webp&format=pjpg&width=3840&quality=60");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020c3a;
+  padding: 15PX;
+  z-index: 1; }
+  header img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  nav ul li {
+    display: inline-block;
+    margin: 20px; }
+    nav ul li a {
+      text-decoration: none;
+      color: white; }
+      nav ul li a:hover {
+        color: rgba(211, 8, 8, 0.815); }
+
+.unite {
+  width: 100%;
+  height: calc(100vh - 130px);
+  background-image: url(../img/hinchada-sl-noche.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white;
+  text-align: center; }
+  .unite h2 {
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    border: 5px white solid;
+    padding: 10px;
+    background-color: #020c3a; }
+
+.titulo h2 {
+  margin: 15px;
+  font-size: 55px;
+  background-color: rgba(211, 8, 8, 0.815);
+  color: white; }
+
+.historia {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px; }
+  .historia div {
+    width: 50%; }
+    .historia div h3 {
+      margin: 15px;
+      font-size: 40px; }
+  .historia img {
+    width: 30%; }
+
+.viejo-gasometro {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px; }
+  .viejo-gasometro div {
+    width: 50%;
+    text-align: center; }
+    .viejo-gasometro div h3 {
+      margin: 15px;
+      font-size: 40px; }
+  .viejo-gasometro img {
+    width: 30%; }
+
+.nuevo-gasometro {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px; }
+  .nuevo-gasometro div {
+    width: 50%;
+    text-align: center; }
+    .nuevo-gasometro div h3 {
+      margin: 15px;
+      font-size: 40px; }
+  .nuevo-gasometro img {
+    width: 30%; }
+
+.estadisticas h2 {
+  margin: 15px;
+  font-size: 55px;
+  background-color: #020c3a;
+  color: white; }
+
+.estadisticas div {
+  width: 100%;
+  text-align: center; }
+  .estadisticas div p {
+    padding: 15px;
+    font-size: 30px; }
+  .estadisticas div img {
+    width: 900px;
+    height: 900px; }
+  .estadisticas div p {
+    padding: 15px;
+    font-size: 30px; }
+  .estadisticas div img {
+    width: 900px;
+    height: 900px; }
+
+.merchandising h2 {
+  margin: 15px;
+  font-size: 55px;
+  background-color: rgba(211, 8, 8, 0.815);
+  color: white; }
+
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .tarjetas div {
+    width: 350px;
+    height: 600px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #020c3a;
+    color: white;
+    margin: 25px;
+    display: inline-block;
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+    -webkit-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79); }
+    .tarjetas div img {
+      width: 340px;
+      height: 350px; }
+  .tarjetas h3 {
+    margin-bottom: 35px; }
+  .tarjetas a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    font-weight: 600; }
+    .tarjetas a:hover {
+      background-color: rgba(211, 8, 8, 0.815);
+      color: white; }
+
+.page-asociate {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .page-asociate form {
+    background-color: rgba(170, 167, 167, 0.808);
+    width: 50%;
+    padding: 45px 55px 80px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .page-asociate form h2 {
+      color: #1b1b1b;
+      font-size: 35px;
+      margin: 0; }
+
+.line {
+  display: inline-block;
+  width: 50px;
+  height: 7px;
+  background: linear-gradient(90deg, #020c3a 0%, rgba(211, 8, 8, 0.815) 77%); }
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left; }
+  .input-group label {
+    color: #1b1b1b;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px; }
+  .input-group input {
+    padding: 17px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ededed;
+    color: #1b1b1b;
+    outline: none; }
+    .input-group input::placeholder {
+      color: #c0c0c0; }
+
+.btn {
+  font-size: 17px;
+  color: #ffcfff;
+  border: 0;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #020c3a 0%, rgba(211, 8, 8, 0.815) 77%);
+  box-shadow: 0 0 20px rgba(214, 0, 254, 0.4);
+  cursor: pointer; }
+  .btn:hover {
+    background: linear-gradient(90deg, rgba(211, 8, 8, 0.815) 0%, #020c3a 77%); }
+
+.nuestro-club h2 {
+  margin: 15px;
+  font-size: 55px;
+  background-color: rgba(211, 8, 8, 0.815);
+  color: white; }
+
+.container h3 {
+  margin: 15px;
+  font-size: 35px;
+  background-color: #020c3a;
+  color: white; }
+
+.container div img {
+  width: 700px;
+  height: 400px; }
+
+.titulo-ubicacion h2 {
+  margin: 15px;
+  font-size: 55px;
+  background-color: rgba(211, 8, 8, 0.815);
+  color: white; }
+
+.ubicacion iframe {
+  display: flex;
+  align-items: center; }
+
+.titulo-multimedia h2 {
+  margin: 15px;
+  font-size: 55px;
+  background-color: rgba(211, 8, 8, 0.815);
+  color: white; }
+
+.grid-galeria {
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-auto-rows: 400px;
+  gap: 15px;
+  padding: 20px; }
+  .grid-galeria .grid-item {
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+    -webkit-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+    position: relative; }
+    .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .grid-galeria h3 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(2, 12, 58, 0.664);
+    width: 100%;
+    text-align: center; }
+
+.img-1 {
+  grid-column: span 2; }
+
+.img-8 {
+  grid-row: span 2; }
+
+.merchandising-page h2 {
+  margin: 15px;
+  font-size: 55px;
+  background-color: rgba(211, 8, 8, 0.815);
+  color: white; }
+
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .tarjetas div {
+    width: 350px;
+    height: 600px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #020c3a;
+    color: white;
+    margin: 25px;
+    display: inline-block;
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+    -webkit-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79); }
+  .tarjetas img {
+    width: 340px;
+    height: 350px; }
+  .tarjetas h3 {
+    margin-bottom: 35px; }
+  .tarjetas a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    font-weight: 600; }
+    .tarjetas a:hover {
+      background-color: rgba(211, 8, 8, 0.815);
+      color: white; }
+
+footer {
+  background-color: rgba(211, 8, 8, 0.815);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer div a img {
+    width: 30px;
+    height: 30px;
+    margin: 25px; }
+  footer div a img {
+    width: 30px;
+    height: 30px;
+    margin: 25px; }
+  footer div a img {
+    width: 30px;
+    height: 30px;
+    margin: 25px; }
