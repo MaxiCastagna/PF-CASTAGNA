@@ -347,8 +347,9 @@ box-shadow: 10px 10px 5px 2px rgba(0,0,0,0.79);
 }
 
 .merchandising-page div img{
-    width: 340px;
-    height: 350px;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
 }
 
 .merchandising-page.tarjetas div a {

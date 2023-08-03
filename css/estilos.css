@@ -85,7 +85,7 @@ nav ul {
       margin: 15px;
       font-size: 40px; }
   .historia img {
-    width: 30%; }
+    width: 40%; }
 
 .viejo-gasometro {
   display: flex;
@@ -100,7 +100,7 @@ nav ul {
       margin: 15px;
       font-size: 40px; }
   .viejo-gasometro img {
-    width: 30%; }
+    width: 40%; }
 
 .nuevo-gasometro {
   display: flex;
@@ -115,7 +115,7 @@ nav ul {
       margin: 15px;
       font-size: 40px; }
   .nuevo-gasometro img {
-    width: 30%; }
+    width: 40%; }
 
 .estadisticas h2 {
   margin: 15px;
@@ -308,7 +308,7 @@ nav ul {
   flex-wrap: wrap; }
   .tarjetas div {
     width: 350px;
-    height: 600px;
+    height: 500px;
     border: 2px solid black;
     text-align: center;
     background-color: #020c3a;
@@ -319,8 +319,9 @@ nav ul {
     -webkit-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
     -moz-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79); }
   .tarjetas img {
-    width: 340px;
-    height: 350px; }
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
   .tarjetas h3 {
     margin-bottom: 35px; }
   .tarjetas a {
@@ -354,37 +355,43 @@ footer {
 @media (max-width: 991px) {
   .page-asociate {
     padding: 30px; }
-  form {
-    padding: 50px 30px;
-    width: 100%; }
-  input {
-    padding: 15px 10px; } }
+    .page-asociate form {
+      padding: 50px 30px;
+      width: 100%; }
+      .page-asociate form .input-group input {
+        padding: 15px 10px; } }
 
 @media screen and (max-width: 950px) {
   .grid-galeria {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 220px; }
-  .grid-item {
-    grid-column: span 1;
-    grid-row: span 1; }
+    .grid-galeria .grid-item {
+      grid-column: span 1;
+      grid-row: span 1; }
   .historia {
     flex-direction: column; }
-  .historia div {
-    width: 80%;
-    text-align: center;
-    margin: 15px; }
+    .historia div {
+      width: 100%;
+      text-align: center;
+      margin: 15px; }
+    .historia img {
+      width: 100%; }
   .viejo-gasometro {
     flex-direction: column; }
-  .viejo-gasometro div {
-    width: 80%;
-    text-align: center;
-    margin: 15px; }
+    .viejo-gasometro div {
+      width: 100%;
+      text-align: center;
+      margin: 15px; }
+    .viejo-gasometro img {
+      width: 100%; }
   .nuevo-gasometro {
     flex-direction: column; }
-  .nuevo-gasometro div {
-    width: 80%;
-    text-align: center;
-    margin: 15px; } }
+    .nuevo-gasometro div {
+      width: 100%;
+      text-align: center;
+      margin: 15px; }
+    .nuevo-gasometro img {
+      width: 100%; } }
 
 @media screen and (max-width: 910px) {
   .estadisticas div img {
@@ -394,7 +401,7 @@ footer {
 @media screen and (max-width: 800px) {
   .unite h2 {
     font-size: 25px; }
-  .container img {
+  .container div img {
     width: 400px;
     height: 200px; } }
 
@@ -404,13 +411,23 @@ footer {
 
 @media screen and (max-width: 640px) {
   header {
-    position: static; } }
+    position: static; }
+  .nuestro-club div h2 {
+    font-size: 40px; }
+  .container h3 {
+    font-size: 25px; } }
 
 @media screen and (max-width: 600px) {
   header nav ul {
     flex-direction: column; }
-  .container img {
+  .container div img {
+    width: 100%;
     align-items: center; } }
+
+@media screen and (max-width: 470) {
+  .merchandising-page .tarjetas img {
+    width: 100%;
+    height: 100%; } }
 
 @media screen and (max-width: 460px) {
   .grid-galeria {
@@ -421,6 +438,11 @@ footer {
   .merchandising-page h2 {
     font-size: 25px;
     text-align: center; }
+  .merchandising-page .boton {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px; }
   .merchandising-section2 h2 {
     font-size: 25px;
     text-align: center; }
@@ -435,5 +457,19 @@ footer {
     text-align: center; }
   .tarjetas div {
     width: 60%;
-    height: 60%;
-    align-items: center; } }
+    height: 70%;
+    align-items: center;
+    margin: 25px;
+    margin-bottom: 20px; }
+    .tarjetas div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .tarjetas div h3 {
+      margin-bottom: 20px;
+      font-size: 15px; }
+  .tarjetas .boton {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px; } }
