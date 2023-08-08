@@ -12,6 +12,7 @@ body {
   text-decoration: none;
   color: black;
   background-color: white;
+  transition: 0.7s;
   padding: 10px; }
 
 .fondo {
@@ -19,6 +20,13 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
+
+.historia, .viejo-gasometro, .nuevo-gasometro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 20px; }
 
 header {
   position: sticky;
@@ -45,14 +53,15 @@ nav ul {
     margin: 20px; }
     nav ul li a {
       text-decoration: none;
-      color: white; }
+      color: white;
+      transition: 0.3s; }
       nav ul li a:hover {
         color: rgba(211, 8, 8, 0.815); }
 
 .unite {
   width: 100%;
   height: calc(100vh - 130px);
-  background-image: url(../img/hinchada-sl-noche.jpg);
+  background-image: url(../img/hinchada-sl-noche-2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,49 +82,34 @@ nav ul {
   background-color: rgba(211, 8, 8, 0.815);
   color: white; }
 
-.historia {
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px; }
-  .historia div {
-    width: 50%; }
-    .historia div h3 {
-      margin: 15px;
-      font-size: 40px; }
-  .historia img {
-    width: 40%; }
+.historia div {
+  width: 50%; }
+  .historia div h3 {
+    margin: 15px;
+    font-size: 40px; }
 
-.viejo-gasometro {
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px; }
-  .viejo-gasometro div {
-    width: 50%;
-    text-align: center; }
-    .viejo-gasometro div h3 {
-      margin: 15px;
-      font-size: 40px; }
-  .viejo-gasometro img {
-    width: 40%; }
+.historia img {
+  width: 40%; }
 
-.nuevo-gasometro {
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px; }
-  .nuevo-gasometro div {
-    width: 50%;
-    text-align: center; }
-    .nuevo-gasometro div h3 {
-      margin: 15px;
-      font-size: 40px; }
-  .nuevo-gasometro img {
-    width: 40%; }
+.viejo-gasometro div {
+  width: 50%;
+  text-align: center; }
+  .viejo-gasometro div h3 {
+    margin: 15px;
+    font-size: 40px; }
+
+.viejo-gasometro img {
+  width: 40%; }
+
+.nuevo-gasometro div {
+  width: 50%;
+  text-align: center; }
+  .nuevo-gasometro div h3 {
+    margin: 15px;
+    font-size: 40px; }
+
+.nuevo-gasometro img {
+  width: 40%; }
 
 .estadisticas h2 {
   margin: 15px;
@@ -158,10 +152,13 @@ nav ul {
     background-color: #020c3a;
     color: white;
     margin: 25px;
-    display: inline-block;
-    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
-    -webkit-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
-    -moz-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79); }
+    transition: 1s; }
+    .tarjetas div:hover {
+      transform: scale(1.1);
+      display: inline-block;
+      box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+      -webkit-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79);
+      -moz-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.79); }
     .tarjetas div img {
       width: 340px;
       height: 350px; }
@@ -342,15 +339,10 @@ footer {
   footer div a img {
     width: 30px;
     height: 30px;
-    margin: 25px; }
-  footer div a img {
-    width: 30px;
-    height: 30px;
-    margin: 25px; }
-  footer div a img {
-    width: 30px;
-    height: 30px;
-    margin: 25px; }
+    margin: 25px;
+    transition: 0.5s; }
+    footer div a img:hover {
+      transform: scale(1.1); }
 
 @media (max-width: 991px) {
   .page-asociate {

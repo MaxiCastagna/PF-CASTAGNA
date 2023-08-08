@@ -1,5 +1,5 @@
 footer{
-    background-color: rgba(211, 8, 8, 0.815);
+    background-color:nth($paleta-colores, 2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,22 +8,12 @@ footer{
            img{ width: 30px;
             height: 30px;
             margin: 25px;
-           }
-        }
-        a{
-           img{
-
-            width: 30px;
-            height: 30px;
-            margin: 25px;
-           }
-        }
-        a{
-            img{
-            width: 30px;
-            height: 30px;
-            margin: 25px;
+            transition: 0.5s;
+            &:hover{
+                transform: scale(1.1);
             }
+           }
         }
+      
     }
 }

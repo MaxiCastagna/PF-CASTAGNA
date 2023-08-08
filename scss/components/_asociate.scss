@@ -30,9 +30,7 @@
 
 }
 .input-group{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+    @include flex(flex, column, left );
     label{
         color: #1b1b1b;
         font-size: 15px;
