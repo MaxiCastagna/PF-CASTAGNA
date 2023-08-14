@@ -29,34 +29,10 @@ body {
   padding: 20px; }
 
 header {
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #020c3a;
-  padding: 15PX;
-  z-index: 1; }
+  background-color: #020c3a; }
   header img {
     width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center; }
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  nav ul li {
-    display: inline-block;
-    margin: 20px; }
-    nav ul li a {
-      text-decoration: none;
-      color: white;
-      transition: 0.3s; }
-      nav ul li a:hover {
-        color: rgba(211, 8, 8, 0.815); }
+    height: 100px; }
 
 .unite {
   width: 100%;
